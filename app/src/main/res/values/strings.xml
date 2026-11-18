@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">warungku</string>
+    <string name="food_photo_desc">Foto menu makanan</string>
+    <string name="app_logo_desc">Logo Warungku</string>
+</resources>

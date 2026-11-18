@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+     Tetap turunan Theme.AppCompat (wajib untuk AppCompatActivity),
+     dengan rasa iOS: status bar & navigation bar terang, ikon gelap.
+    -->
+    <style name="Theme.Warungku" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/ios_blue</item>
+        <item name="colorPrimaryDark">@color/ios_ice_2</item>
+        <item name="colorAccent">@color/ios_blue</item>
+        <item name="colorSecondary">@color/ios_blue_deep</item>
+        <item name="android:windowBackground">@color/ios_ice_2</item>
+        <item name="android:statusBarColor">@color/ios_ice_2</item>
+        <item name="android:navigationBarColor">@color/ios_ice_2</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:fontFamily">sans</item>
+    </style>
+</resources>

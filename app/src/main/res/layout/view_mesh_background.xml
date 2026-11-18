@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Background mesh sudah di-blur 20px dan Diperkaya saturasi langsung di drawable.
+  Tidak ada lagi kode blur di Kotlin.
+-->
+<View xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/meshRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mesh_blur" />
